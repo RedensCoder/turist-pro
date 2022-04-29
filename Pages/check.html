@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/checkCSS.css">
+    <title>Check</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="../source/logo.png" style="cursor: pointer;">
+        <div class="navbar">
+            <ul>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Как забронировать</a></li>
+                <li><a href="#">Акции</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="content">
+        <p style="color: #E5E5E5;">ПАСХАЛКА</p>
+        <div class="content__content">
+            <div class="content__info">
+                <h1>Бронирование тура</h1>
+                <h2>1. Данные о заказе</h2>
+                <div class="blocks">
+                    <div class="blocks__block">
+                        <p class="region">Регион</p>
+                        <p class="region__region">Санкт-Петербург</p>
+                        <p class="region">Места посещения</p>
+                        <ul class="region__region">
+                            <li id="flag">Пункт 1</li>
+                            <li>Пункт 2</li>
+                            <li>Пункт 3</li>
+                            <li id="reverse_flag">Пункт 4</li>
+                        </ul>
+                    </div>
+                    <div class="blocks__block">
+                        <p class="region">Маршрут</p>
+                        <p class="region__region">Курсы инструкторов походов с детьми. Спб</p>
+                        <p class="region">Даты похода</p>
+                        <p class="region__region">01.11.2021 - 8.11.2021 (7 дней)</p>
+                        <p class="region">Туристы</p>
+                        <p class="region__region">4</p>
+                    </div>
+                </div>
+                <h2>2. Дополнительные услуги</h2>
+                <p class="region">Проводник</p>
+                <select class="list">
+                    <option>Без проводника <span>(+ 0₽)</span></option>
+                    <option>Проводник 1 <span>(+ 500₽)</span></option>
+                    <option>Проводник 2 <span>(+ 1500₽)</span></option>
+                </select>
+                <p class="region">Аренда оборудования</p>
+                <div class="checkboxes">
+                    <div class="checkbox">
+                        <div class="checkbox__checkbox">
+                            <input type="checkbox">
+                            <label class="region__region">Предмет 1 <span>+ 1 000₽</span></label>
+                        </div>
+                        <div class="checkbox__checkbox">
+                            <input type="checkbox">
+                            <label class="region__region">Предмет 3 <span>+ 1 000₽</span></label>
+                        </div>
+                        <div class="checkbox__checkbox">
+                            <input type="checkbox">
+                            <label class="region__region">Предмет 5 <span>+ 1 000₽</span></label>
+                        </div>
+                        <div class="checkbox__checkbox">
+                            <input type="checkbox">
+                            <label class="region__region">Предмет 7 <span>+ 1 000₽</span></label>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <div class="checkbox__checkbox">
+                            <input type="checkbox">
+                            <label class="region__region">Предмет 2 <span>+ 1 000₽</span></label>
+                        </div>
+                        <div class="checkbox__checkbox">
+                            <input type="checkbox">
+                            <label class="region__region">Предмет 4 <span>+ 1 000₽</span></label>
+                        </div>
+                        <div class="checkbox__checkbox">
+                            <input type="checkbox">
+                            <label class="region__region">Предмет 6 <span>+ 1 000₽</span></label>
+                        </div>
+                        <div class="checkbox__checkbox">
+                            <input type="checkbox">
+                            <label class="region__region">Предмет 8 <span>+ 1 000₽</span></label>
+                        </div>
+                    </div>
+                </div>
+                <p class="region">Услуги фотографа</p>
+                <select class="list">
+                    <option>Сам фоткать буду <span>(+ 0₽)</span></option>
+                    <option>Фотограф Гейоргий <span>(+ 500₽)</span></option>
+                    <option>Нормальный фотограф <span>(+ 1500₽)</span></option>
+                </select>
+                <p class="region">Страховка</p>
+                <select class="list">
+                    <option>Страховка от несчастного случая <span>(+ 2 500₽)</span></option>
+                    <option>Страховка от счастливого случуя <span>(+ 5 000₽)</span></option>
+                    <option>Чтраховка от двойки по паре Артёма Романовича <span>(+ 10 500₽)</span></option>
+                </select>
+                <div class="services__navbar">
+                    <h3>3. Данные о заказчике</h3>
+                    <h3 id="next">3. Данные о заказчике</h3>
+                </div>
+                <form class="services__form">
+                    <div class="form__form">
+                        <label class="region">Имя</label>
+                        <input type="name" autocomplete="off" placeholder="Иван">
+                    </div>
+                    <div class="form__form">
+                        <label class="region">E-mail</label>
+                        <input type="email" autocomplete="off" placeholder="32560823@mail.ru">
+                    </div>
+                </form>
+            </div>
+            <div class="content__check">
+                <div class="check__check">
+                    <div class="check__info">
+                        <h1>Ваш заказ</h1>
+                        <p class="region">Регион</p>
+                        <p class="region__region">Санкт-Петербург</p>
+                        <p class="region">Маршрут</p>
+                        <p class="region__region" style="padding: 2px;">Курсы инструкторов походов с</p>
+                        <p class="region__region">детьми. Спб</p>
+                        <p class="region">Даты похода</p>
+                        <p class="region__region">01.11.2021 - 8.11.2021 (7 дней)</p>
+                        <p class="region">Туристы</p>
+                        <p class="region__region">4</p>
+                    </div>
+                    <div class="poloska"></div>
+                    <div class="check__price">
+                        <h2>Стоимость</h2>
+                        <div class="prices">
+                            <div class="prices__price">
+                                <p class="price">Поход</p>
+                                <p class="price">12 539 ₽</p>
+                            </div>
+                            <div class="prices__price">
+                                <p class="price">Проводник</p>
+                                <p class="price">0 ₽</p>
+                            </div>
+                            <div class="prices__price">
+                                <p class="price">Аренда оборудования</p>
+                                <p class="price">3 000 ₽</p>
+                            </div>
+                            <div class="prices__price">
+                                <p class="price">Фотограф</p>
+                                <p class="price">2 000 ₽</p>
+                            </div>
+                            <div class="prices__price">
+                                <p class="price">Страховка</p>
+                                <p class="price">2 500 ₽</p>
+                            </div>
+                            <div class="prices__price">
+                                <h3 class="price">Итого</h3>
+                                <h4 class="price">20 539 ₽</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="check__confirm">Забронировать</button>
+            </div>
+        </div>
+        <p style="color: #E5E5E5;">ПАСХАЛКА</p>
+    </div>
+    <footer>
+        <div class="footer__two">
+            <img id="logo2" src="../source/logo2.png">
+            <div class="footer__blocks">
+                <div class="footer__block">
+                    <ul>
+                        <li>Возврат</li>
+                    </ul>
+                </div>
+                <div class="footer__block">
+                    <ul>
+                        <li>Обратная связь</li>
+                    </ul>
+                </div>
+            </div>
+            <p id="numbeer">8 (800) 555-35-35</p>
+        </div>
+    </footer>
+    <script src="../scripts/checkScript.js"></script>
+</body>
+
+</html>

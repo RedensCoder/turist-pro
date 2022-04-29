@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'Gemoroy';
+    src: url(../fonts/gemoroy.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0; 
+}
+
+.navbar ul li a{
+    font-family: 'Gemoroy' ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #264653;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+/* ================= CONTENT ================== */
+
+.content {
+    background: #F6F6F6;
+    text-align: center;
+}
+
+.content__search {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    display: inline-flex;
+    margin-top: 24px;
+    font-family: 'Gemoroy';
+    margin-bottom: 40px;
+    width: 1110px;
+}
+
+.search__form {
+    display: flex;
+    margin: 50px 33px 75px 33px;
+}
+
+.block {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.search__form label {
+    color: #264653;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.search__form input {
+    padding: 10px;
+    border: 0.5px solid #9D9D9D;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.form__button {
+    background: #FFB931;
+    border-radius: 4px;
+    font-family: 'Gemoroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 50px;
+    cursor: pointer;
+    margin-left: 200px;
+    height: 36px;
+    position: relative;
+    top: 25px;
+}
+
+/* ============= Stocks ============ */
+
+.stocks {
+    text-align: left;
+}
+
+.stocks h1 {
+    width: 1110px;
+    margin: 0 auto;
+    font-family: 'Gemoroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    color: #264653;
+}
+
+.stocks__blocks {
+    display: flex;
+    justify-content: space-around;
+    width: 1110px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.blocks__block {
+    background: white;
+    width: 255px;
+    height: 289px;
+    margin-bottom: 90px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+}
+
+.zalupa {
+    font-family: 'Gemoroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #264653;
+    padding: 20px 20px 10px 20px;
+    width: 215px;
+}
+
+.desc {
+    font-family: 'Gemoroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #264653;
+    line-height: 13px;
+    width: 215px;
+    padding: 0 20px;
+}
+
+.about {
+    font-family: 'Gemoroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    color: #FFB931;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* ========== FOOOTER ======== */
+
+.footer__one {
+    background: #2A9D8F;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__one p {
+    font-family: 'Gemoroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    margin: 55px 0;
+}
+
+.footer__one input {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #264653;
+    padding: 9px 10px;
+    margin: 55px 0;
+}
+
+.footer_form_but {
+    background: #FFB931;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    font-family: 'Gemoroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 9px 20px;
+}
+
+.footer__two {
+    background: #264653;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    list-style: none;
+}
+
+#logo2 {
+    width: 204px;
+    height: 22px;
+    margin: 40px 0;
+}
+
+.footer__blocks {
+    display: flex;
+    margin: 40px 0;
+}
+
+.footer__block {
+    margin-left: 67px;
+}
+
+.footer__block ul li {
+    padding-bottom: 10px;
+    font-family: 'Gemoroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+#numbeer {
+    font-family: 'Gemoroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    margin: 40px 0;
+}
